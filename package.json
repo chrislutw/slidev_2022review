@@ -2,9 +2,9 @@
   "name": "slidev-2022review",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build -- --dark=true",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export -- --dark=true"
   },
   "dependencies": {
     "@slidev/cli": "^0.37.1",
